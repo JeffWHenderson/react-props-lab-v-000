@@ -22,4 +22,4 @@ SpaceShip.defaultProps = {
   colors: ['black', 'red']
 }
 
-export default Spaceship
+export default Spaceship;
