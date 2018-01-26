@@ -1,6 +1,5 @@
-// Code The Spaceship Component Here
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
 class Spaceship extends React.Component {
   render() {
@@ -9,15 +8,13 @@ class Spaceship extends React.Component {
         <h2>{this.props.name}</h2>
         <h3>Speed: {this.props.speed}</h3>
         <h4>Rockets?: {this.props.hasRockets}</h4>
-        <h4>Colors: {this.props.colors.join(", ")}</h4>
+        <h4>Colors: {this.props.colors.join(', ')}</h4>
       </div>
     );
   }
 }
-
-
-SpaceShip.defaultProps = {
-  speed: slow,
+Spaceship.defaultProps = {
+  speed: 'slow',
   hasRockets: false,
   colors: ['black', 'red']
 }
