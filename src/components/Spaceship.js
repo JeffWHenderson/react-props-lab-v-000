@@ -17,8 +17,8 @@ class Spaceship extends React.Component {
 
 
 SpaceShip.defaultProps = {
-  speed: slow
-  hasRockets: false
+  speed: slow,
+  hasRockets: false,
   colors: ['black', 'red']
 }
 
