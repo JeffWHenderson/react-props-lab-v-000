@@ -11,7 +11,7 @@ class Spaceship extends React.Component {
         <h4>Rockets?: {this.props.hasRockets}</h4>
         <h4>Colors: {this.props.colors.join(", ")}</h4>
       </div>
-    )
+    );
   }
 }
 
