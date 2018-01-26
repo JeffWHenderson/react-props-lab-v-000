@@ -22,8 +22,4 @@ SpaceShip.defaultProps = {
   colors: ['black', 'red']
 }
 
-ReactDom.render(
-  <Spaceship name={} />
-)
-
 export default Spaceship
